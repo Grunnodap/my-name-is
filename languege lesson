@@ -1,0 +1,52 @@
+// 1. 변수와 데이터의 타입
+
+// Java Script
+
+let name = "Alice"; // 문자열(string)
+const age = 25; // 숫자(Number)
+let isStudent = true; // 불리언(Boolean)
+
+// 2. 연산자
+
+// Java Script
+
+console.log(10 + 5); // 15
+console.log(10 > 5); // true
+console. log(true && false); // false
+
+// 3. 조건문
+
+// Java Script
+
+let num = 10;
+if (num > 0) {
+    console.log("양수입니다.")
+} else if (num < 0) {
+    console.log("음수입니다.")
+} else {
+    console.log("0입니다.")
+}
+
+// 4. 반복문 (for / while)
+
+// Java Script
+
+for (let i = 1; i <= 3; i++) { 
+    console.log("반복 중: " , i)
+}
+
+let count = 0;
+while (count < 3) {
+    console.log("while 반복 중:",count);
+    count++;
+}
+
+// 5. 함수 (Function)
+
+// Java Script
+
+function greet(name) {
+    return "안녕, " +  name + "!"
+}
+
+console.log(greet("Alice"));

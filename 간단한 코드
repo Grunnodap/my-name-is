@@ -1,0 +1,18 @@
+function getRandomScore() {
+    return Math.floor(Math.random() * 101);
+}
+
+let player1 = getRandomScore();
+let player2 = getRandomScore();
+
+console.log("🎮 숫자 대결 게임! 🎮");
+console.log(`플레이어 1 점수: ${player1}`);
+console.log(`플레이어 2 점수: ${player2}`);
+
+if (player1 > player2) {
+    console.log("🏆 플레이어 1이 승리했습니다! 🎉");
+} else if (player1 < player2) {
+    console.log("🏆 플레이어 2가 승리했습니다! 🎉");
+} else {
+    console.log("🤝 무승부! 두 플레이어가 같은 점수입니다.")
+}
